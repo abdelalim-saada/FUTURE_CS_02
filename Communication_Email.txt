@@ -1,0 +1,28 @@
+To: IT Security Manager
+Subject: Urgent: Security Incidents Detected on SOC Monitoring
+
+Dear [Manager’s Name],
+
+During routine SOC monitoring, we identified multiple high-severity incidents on July 3, 2025:
+
+Malware (Trojan, Ransomware, Worm) detected on hosts 10.0.0.5 and 172.16.0.3.
+
+Multiple brute-force login attempts from external IP 203.0.113.77.
+
+Possible rootkit and spyware activity on user alice.
+
+Recommended actions:
+
+Immediately isolate affected systems.
+
+Force password resets for compromised accounts.
+
+Deploy updated antivirus and conduct full scans.
+
+Escalate for forensic investigation.
+
+Please advise on approval for containment and eradication measures.
+
+Best regards,
+[Abdelalim Saada]
+SOC Analyst Intern
