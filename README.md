@@ -1,16 +1,14 @@
+# 🛡️ SOC Monitoring & Incident Response Simulation
 
-# 🛡️ Future Interns Cyber Security – Task 2
+## Security Operations Center (SOC) Analyst Practice Project
 
-## Security Operations Center (SOC) Internship Project
-
-This repository contains my work for **Task 2 of the Future Interns Cyber Security program**.
-The focus of this project is to simulate the daily activities of a **Security Operations Center (SOC) analyst**: monitoring alerts, analyzing logs, and responding to potential incidents.
+This repository contains a hands-on project simulating the daily activities of a **Security Operations Center (SOC) analyst**: monitoring alerts, analyzing logs, and responding to potential incidents.
 
 ---
 
 ## 📌 Project Overview
 
-In this task, I:
+In this project, I:
 
 * Set up and explored **Splunk Free SIEM** for log ingestion and analysis.
 * Analyzed simulated logs containing authentication events, network activity, and malware detections.
@@ -39,7 +37,7 @@ In this task, I:
 
 ---
 
-## 🎯 Skills Gained
+## 🎯 Skills Practiced
 
 * Basic **SIEM log analysis**
 * **Threat detection & classification**
@@ -47,26 +45,22 @@ In this task, I:
 * **SOC analyst workflow simulation**
 * Effective **reporting and communication** of security incidents
 
-
 ---
 
 ## 🚀 How to Replicate
 
 1. Install **Splunk Free** or use Splunk Cloud Trial.
-2. Ingest the provided sample logs (`SOC_Task2_Sample_Logs.txt`).
+2. Ingest the provided sample logs (`SOC_Sample_Logs.txt`).
 3. Use queries to detect anomalies, e.g.:
-
    ```spl
-   source="SOC_Task2_Sample_Logs.txt" "login failed" | stats count by ip
+   source="SOC_Sample_Logs.txt" "login failed" | stats count by ip
    ```
 4. Build dashboards to visualize the results.
 5. Document your findings in a structured report.
 
 ---
 
-## 📢 Acknowledgment
+## Author
 
-This project is part of the **Future Interns Cyber Security Program**.
-
-\#FutureInterns #CyberSecurity #SOC #Splunk #IncidentResponse #SIEM
-
+**Abdelalim Saada** — Cybersecurity Engineer
+[LinkedIn](https://www.linkedin.com/in/abdelalim-saada-5732a3350/) · [GitHub](https://github.com/abdelalim-saada)
